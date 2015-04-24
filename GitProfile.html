@@ -1,0 +1,14 @@
+<html>
+	<head>
+		<script data-require="angular.js@*" data-semver="1.2.25" src="angular.js"></script>
+		<script type="text/javascript" src="js/Controllers/gitController.js"></script>
+	</head>
+	<body ng-app="gitHubAPI" >
+		<div ng-controller="GitProfileController">
+			{{userDetails.name}}
+			<hr>
+			{{userDetails.email}}
+			<h1>{{errorReason}}</h1>
+		</div>
+	</body>
+</html>
